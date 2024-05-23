@@ -17,7 +17,11 @@ class User
     "My name is #{@name}"
   end
 end
+# user = User.new('Alice')
+# user.hello
+# user.hi
+# user.my_name
 user = User.new('Alice')
-user.hello
-user.hi
-user.my_name
+puts user.hello
+puts user.hi
+puts user.my_name
